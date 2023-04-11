@@ -1,0 +1,33 @@
+name: Publish
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Build and Publish
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Use Node.js 18.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+          registry-url: https://npm.pkg.github.com
+          scope: "@chiraagByjus"
+          always-auth: true
+      - name: NPM install
+        run: npm i
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.PUBLISH_ACCESS_TOKEN }}
+      - name: NPM build
+        run: npm run build:rollup
+        env:
+          NODE_ENV: production
+      - name: Publish
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.PUBLISH_ACCESS_TOKEN }}
