@@ -18,16 +18,11 @@ jobs:
           node-version: 18.x
           registry-url: https://npm.pkg.github.com
           scope: "@chiraagbyjus"
-          always-auth: true
       - name: NPM install
         run: npm i
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.PUBLISH_ACCESS_TOKEN }}
       - name: NPM build
         run: npm run build:rollup
-        env:
-          NODE_ENV: production
       - name: Publish
         run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.PUBLISH_ACCESS_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
