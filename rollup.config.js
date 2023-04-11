@@ -8,9 +8,15 @@ import commonjs from "@rollup/plugin-commonjs";
 
 // the entry point for the library
 const input = "index.js";
+const D3_WARNING = /Circular dependency.*d3-interpolate/;
 
 var config = [
   {
+    onwarn: function (message) {
+      if (D3_WARNING.test(message)) {
+        return;
+      }
+    },
     input: input,
     output: {
       // then name of your package
