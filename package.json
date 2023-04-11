@@ -69,6 +69,6 @@
     "@rollup/plugin-node-resolve": "^15.0.1"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@chiraagByjus"
+    "registry": "https://npm.pkg.github.com"
   }
 }
