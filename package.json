@@ -1,6 +1,6 @@
 {
   "name": "@chiraagbyjus/trial-library-dummy",
-  "version": "0.0.101",
+  "version": "0.0.2",
   "description": "",
   "main": "dist/index.cjs.js",
   "scripts": {
