@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: 18.x
           registry-url: https://npm.pkg.github.com
-          scope: "@chiraagByjus"
+          scope: "@chiraagbyjus"
           always-auth: true
       - name: NPM install
         run: npm i
