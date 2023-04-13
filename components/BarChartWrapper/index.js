@@ -1,22 +1,22 @@
 import React from "react";
-// import {
-//   BarChart,
-//   Bar,
-//   XAxis,
-//   YAxis,
-//   CartesianGrid,
-//   ReferenceLine,
-//   Tooltip,
-//   ResponsiveContainer,
-// } from "recharts";
-import { BarChart } from "recharts/es6/chart/BarChart";
-import { YAxis } from "recharts/es6/cartesian/YAxis";
-import { XAxis } from "recharts/es6/cartesian/XAxis";
-import { Bar } from "recharts/es6/cartesian/Bar";
-import { Tooltip } from "recharts/es6/component/Tooltip";
-import { CartesianGrid } from "recharts/es6/cartesian/CartesianGrid";
-import { ReferenceLine } from "recharts/es6/cartesian/ReferenceLine";
-import { ResponsiveContainer } from "recharts/es6/component/ResponsiveContainer";
+import {
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  ReferenceLine,
+  Tooltip,
+  ResponsiveContainer,
+} from "recharts";
+// import { BarChart } from "recharts/es6/chart/BarChart";
+// import { YAxis } from "recharts/es6/cartesian/YAxis";
+// import { XAxis } from "recharts/es6/cartesian/XAxis";
+// import { Bar } from "recharts/es6/cartesian/Bar";
+// import { Tooltip } from "recharts/es6/component/Tooltip";
+// import { CartesianGrid } from "recharts/es6/cartesian/CartesianGrid";
+// import { ReferenceLine } from "recharts/es6/cartesian/ReferenceLine";
+// import { ResponsiveContainer } from "recharts/es6/component/ResponsiveContainer";
 import { FallbackMessage } from "../FallbackMessage";
 
 export const BarChartWrapper = ({
