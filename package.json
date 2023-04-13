@@ -1,6 +1,6 @@
 {
   "name": "@chiraagbyjus/trial-library-dummy",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "",
   "main": "dist/index.cjs.js",
   "scripts": {
@@ -50,7 +50,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-scripts": "5.0.1",
-    "recharts": "2.2.0",
+    "recharts": "2.3.0",
     "rollup": "^3.2.5",
     "rollup-plugin-sourcemaps": "^0.6.3",
     "rollup-plugin-styles": "^4.0.0",
