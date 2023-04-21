@@ -1,6 +1,6 @@
 {
   "name": "@chiraagbyjus/trial-library-dummy",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "",
   "main": "dist/index.cjs.js",
   "scripts": {
@@ -17,11 +17,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.19.3",
-    "@babel/core": "^7.19.6",
-    "@babel/plugin-transform-runtime": "^7.19.6",
-    "@babel/preset-env": "^7.19.4",
-    "@babel/preset-react": "^7.18.6",
+    "@babel/cli": "7.20.7",
+    "@babel/core": "7.20.12",
+    "@babel/plugin-transform-runtime": "7.19.6",
+    "@babel/preset-env": "7.20.2",
+    "@babel/preset-react": "7.18.6",
     "@peculiar/webcrypto": "^1.4.1",
     "@rollup/plugin-babel": "^6.0.2",
     "@rollup/plugin-commonjs": "^24.0.0",
@@ -40,7 +40,7 @@
     "@testing-library/user-event": "13.5.0",
     "@types/dompurify": "^2.4.0",
     "autoprefixer": "^10.4.13",
-    "babel-loader": "^8.2.5",
+    "babel-loader": "9.1.2",
     "babel-plugin-module-resolver": "^5.0.0",
     "babel-plugin-recharts": "^2.0.0",
     "css-loader": "^3.6.0",
@@ -63,7 +63,7 @@
     "react-dom": "^18.2.0"
   },
   "dependencies": {
-    "@babel/runtime": "^7.20.1",
+    "@babel/runtime": "7.20.7",
     "@rollup/plugin-node-resolve": "^15.0.1",
     "shaka-player": "^4.2.3",
     "recharts": "2.1.6"
